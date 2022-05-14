@@ -5,13 +5,6 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os 
  
-
-# city = input("Enter city: ")
-
-# weather_data = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&APPID=abbdfafcb4c39610f07904ddd787fe33")
-
-# print(weather_data.json())
-
 load_dotenv()
 
 def getWeather(canvas):
